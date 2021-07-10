@@ -1,8 +1,7 @@
 package ru.netology.domain;
 
-import java.util.Date;
 
-public class PostManager {
+public class Post {
     private String postType;
     private int signerId;
     private int postId;
@@ -23,6 +22,17 @@ public class PostManager {
     private boolean markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private LikesInfo likesInfo;
+    private Repost repost;
+    private ViewsInfo viewsInfo;
+    private Geo geo;
+    private Place place;
+    private PostSource postSource;
+    private Donut donut;
+
 
     public String getPostType() {
         return postType;

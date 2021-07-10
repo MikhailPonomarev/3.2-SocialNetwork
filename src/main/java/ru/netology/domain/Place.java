@@ -9,6 +9,10 @@ public class Place {
     private String icon;
     private int checkinsCount;
     private int updated;
+    private int type;
+    private int country;
+    private int city;
+    private String adress;
 
     public int getPlaceId() {
         return placeId;
@@ -72,5 +76,37 @@ public class Place {
 
     public void setUpdated(int updated) {
         this.updated = updated;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
+    }
+
+    public int getCountry() {
+        return country;
+    }
+
+    public void setCountry(int country) {
+        this.country = country;
+    }
+
+    public int getCity() {
+        return city;
+    }
+
+    public void setCity(int city) {
+        this.city = city;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 }

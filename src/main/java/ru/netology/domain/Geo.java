@@ -3,6 +3,7 @@ package ru.netology.domain;
 public class Geo {
     private String placeType;
     private String coordinatesOfPlace;
+    //?объект Place - описание места?
 
     public String getPlaceType() {
         return placeType;
